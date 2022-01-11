@@ -2,6 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: lightblue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.d_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movieCard {
+  margin: 1.5rem;
+  padding: 1rem;
+  width: 25%;
+  background: linear-gradient(0deg, #07aaed 0%, #1565dd 100%);
+  border: 1px solid black;
+  border-radius: 15px;
 }
 

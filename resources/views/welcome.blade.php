@@ -10,7 +10,7 @@
 
         <div class="titles">
             <h3>Titolo/Originale</h3>
-            {{$movie->title}} /{{$movie->original_title}}
+            {{$movie->title}} / {{$movie->original_title}}
         </div>
 
         <div class="nationality">
@@ -27,9 +27,10 @@
             <h3>Voto</h3>
             {{$movie->vote}}
         </div>
+
     </div>
-    <hr>
     @endforeach
+
 
 </div>
 
