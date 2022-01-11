@@ -4,7 +4,12 @@
 
 <div class="container">
 
-    MOVIES
+    @foreach ($movies as $movie)
+
+    <div class="movieName">
+        {{$movie->title}}
+    </div>
+    @endforeach
 
 </div>
 
