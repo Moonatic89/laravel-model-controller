@@ -10,6 +10,10 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
 </head>
 
 <body>
